@@ -59,21 +59,22 @@
 	//echo($numpeliculas_teatro." ".$numpeliculas_cine);
 ?>
 <!DOCTYPE html>
-<html>
+<html class="ui-mobile">
 	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<title>Cartelera Virtual</title>
-		<script src="libs/jquery-2.1.1.js"></script>
-		<script src="libs/jquery.cycle2.js"></script>
-		<script src="libs/jquery.cycle2.carousel.js"></script>
-		<script src="libs/jquery.cycle2.scrollVert.js"></script>
-		<script src="libs/jquery.cycle2.tile.js"></script>
-		<script src="libs/ajax.js"></script>
-		<link rel="stylesheet" href="css/jquery-ui.css">
+		<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+		<link href="libs/jquery.mobile-1.4.4/jquery.mobile-1.4.4.css" rel="stylesheet">
 		<link href="css/main.css" rel="stylesheet" type="text/css">
-		<!-- <link href="css/mediaqueries.css" rel="stylesheet" type="text/css"> -->
+		<script src="libs/jquery-2.1.1.js"></script>
+		<script src="libs/jquery.mobile-1.4.4/jquery.mobile-1.4.4.js"></script>
+		<title>Cartelera Virtual</title>
 	</head>
 	<body>
+		<div data-role="page"> 
+			<div data-role="header" data-position="fixed" data-theme="b">
+				<h1>CARTELERA VIRTUAL</h1>
+			</div> 
+			<div data-role="content" id="contentTotalCartel">
 		<?php
 			if($_GET['slidercine']=="true" || empty($_GET['slidercine']) && empty($_GET['sliderteatro'])){
 		?>
@@ -386,6 +387,13 @@
 					<?php
 				}
 			?>
+		</div>
+			</div> 
+			<div data-role="footer" data-theme="b" data-position="fixed">
+				<h1>
+					Dise&ntilde;o y programaci&oacute;n Xumba de Venezuela 2014
+				</h1>
+			</div> 
 		</div>
 	</body>
 </html>
