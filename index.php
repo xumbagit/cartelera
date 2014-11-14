@@ -98,7 +98,7 @@
 			<div data-role="content" id="wrapper2"></div> 
 			<div data-role="footer" data-theme="b" data-position="fixed">
 				<h1>
-					Dise&ntilde;o y programaci&oacute;n Xumba de Venezuela 2014
+					Dise&ntilde;o y programaci&oacute;n Xumba de Venezuela 2014 &copy;
 				</h1>
 			</div> 
 		</div>
