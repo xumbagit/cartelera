@@ -102,5 +102,27 @@
 				</h1>
 			</div> 
 		</div>
+		<div id="DetallesDeLaPelicula" data-role="page" style="background: #000;"> 
+			<div data-role="header" data-position="fixed" data-theme="b">
+				<h1>CARTELERA VIRTUAL</h1>
+			</div> 
+			<div data-role="content" id="wrapper2"></div> 
+			<div data-role="footer" data-theme="b" data-position="fixed">
+				<h1>
+					Dise&ntilde;o y programaci&oacute;n Xumba de Venezuela 2014 &copy;
+				</h1>
+			</div> 
+		</div>
+		<div id="DetallesDeLaPelicula" data-role="page" style="background: #000;"> 
+			<div data-role="header" data-position="fixed" data-theme="b">
+				<h1>CARTELERA VIRTUAL - DETALLES DE LA PELICULA</h1>
+			</div> 
+			<div data-role="content" id="wrapper2"></div> 
+			<div data-role="footer" data-theme="b" data-position="fixed">
+				<h1>
+					Dise&ntilde;o y programaci&oacute;n Xumba de Venezuela 2014 &copy;
+				</h1>
+			</div> 
+		</div>
 	</body>
 </html>
