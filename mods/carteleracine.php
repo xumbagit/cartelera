@@ -72,14 +72,14 @@
 						<div class="hora" id="HoraCine" style="margin-left:5px;"><?php echo(date("h:i A")); ?></div>
 					</div>
 					<div class="header2">
-						<a href="?slidercine=true">
+						<a href="#CarteleraDelCine">
 							<img src="img/btn_cine.png" />
 						</a><br />
 						<?php
 						
 							if($numpeliculas_teatro>0){
 							?>
-								<a href="?sliderteatro=true">
+								<a href="#CarteleraDelTeatro">
 									<img src="img/btn_teatro.png" />
 								</a>
 							<?php	

@@ -70,33 +70,17 @@
 		<title>Cartelera Virtual</title>
 		<script tyle="text/javascript">
 			$(document).ready(function(){
-				$.ajax({
-					type : "POST",
-					url:'mods/carteleracine.php',
-					dataType : "html",
-					success:function(data){
-						$('#wrapper1').html()=data; // returns cartelera
-					},
-					error:function() {
-						document.write("Sorry, The requested property could not be found.");
-					}
+				$('#wrapper1').load('http://xumbadevenezuela.com/entorno_cinetv_app/mods/carteleracine.php',function(){
+					$('#wrapper1').trigger('create');
 				});
-				$.ajax({
-					type : "POST",
-					url:'mods/cartelerateatro.php',
-					dataType : "html",
-					success:function(data){
-						$('#wrapper2').html()=data; // returns cartelera
-					},
-					error:function() {
-						document.write("Sorry, The requested property could not be found.");
-					}
+				$('#wrapper2').load('http://xumbadevenezuela.com/entorno_cinetv_app/mods/cartelerateatro.php',function(){
+					$('#wrapper2').trigger('create');
 				});
 			});
 		</script>
 	</head>
 	<body>
-		<div data-role="page"> 
+		<div id="CarteleraDelCine" data-role="page" style="background: #000;"> 
 			<div data-role="header" data-position="fixed" data-theme="b">
 				<h1>CARTELERA VIRTUAL</h1>
 			</div> 
@@ -107,7 +91,7 @@
 				</h1>
 			</div> 
 		</div>
-		<div data-role="page"> 
+		<div id="CarteleraDelTeatro" data-role="page" style="background: #000;"> 
 			<div data-role="header" data-position="fixed" data-theme="b">
 				<h1>CARTELERA VIRTUAL</h1>
 			</div> 
