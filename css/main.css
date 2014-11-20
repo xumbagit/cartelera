@@ -101,8 +101,8 @@ body{
 	padding-left: 15px;
 	font-family: Helvetica,Arial,sans-serif;
 	font-weight: bolder;
-	font-size: 19px;
-	line-height: 21px;
+	font-size:10px;
+	line-height:12px;
 	color: #FFF;
 }
 .fecha, .hora {
@@ -111,8 +111,8 @@ body{
 	float: left;
 	margin-top: 0px;
 	margin-left: 15px;
-	font-size: 13px;
-	line-height: 24px;
+	font-size: 10px;
+	line-height:12px;
 	color: #FFF;
 	text-align: right;
 	font-weight: bolder;
@@ -178,7 +178,7 @@ body{
     padding: 0;
 }
 .nombre {
-	width: 64%;
+	width: 56%;
 	max-width: 88%;
 	height: 18%;
 	float: left;
@@ -187,10 +187,10 @@ body{
 }
 .nombre .principal{
 	display: inline-block;
-	width: 95%;
+	width: 70%;
 	margin-top: 20px;
 	margin-left: 15px;
-	font-size: 26px;
+	font-size: 12px;
 	line-height: 60px;
 	margin-right: 19px;
 	overflow: hidden;
@@ -199,11 +199,11 @@ body{
 	letter-spacing: 2px;
 }
 .nombre .sub{
-	width: 90%;
+	width: 70%;
 	margin-top: 0px;
 	margin-left: 15px;
 	margin-right: 14px;
-	font-size: 18px;
+	font-size:8px;
 	line-height: 20px;
 	overflow: hidden;
 	white-space: nowrap;
@@ -212,7 +212,7 @@ body{
 }
 
 .nombre .sub p{
-    width: 95%;
+    width: 70%;
     overflow: hidden;
     white-space: nowrap;
 	text-overflow:ellipsis;
@@ -228,11 +228,11 @@ body{
 }
 .teatro .nombre .principal{
     display: inline-block;
-    width: 95%;
+    width: 70%;
     margin-top:26px;
     margin-left:15px;
-    font-size: 45px;
-    line-height: 37px;
+    font-size: 10px;
+    line-height: 12px;
     margin-right: 19px;
     overflow: hidden;
     white-space: nowrap;
@@ -240,19 +240,19 @@ body{
     letter-spacing: 3px;
 }
 .teatro .nombre .sub {
-    width: 90%;
+    width:70%;
     margin-top:11px;
     margin-left:15px;
     margin-right: 14px;
-    font-size: 35px;
-    line-height: 37px;
+    font-size: 8px;
+    line-height:10px;
     overflow: hidden;
     white-space: nowrap;
 	text-overflow:ellipsis;
 	letter-spacing: 3px;
 }
 .teatro .nombre .sub p{
-    width:95%;
+    width:70%;
     overflow:hidden;
     white-space:nowrap;
 	text-overflow:ellipsis;
