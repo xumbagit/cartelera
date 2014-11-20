@@ -171,7 +171,7 @@
 														<div class="sala" id="<?php echo($contsala); ?>" style="margin-top:15px;margin-left:5px;">
 															<div id="<?php echo($nombreelim6); ?>" class="text">censura <span style="font-weight: bold;"><?php echo($data['censura']); ?></span></div>
 															<span style="font-size: 30px;line-height: 32px;">SALA <?php echo($data['sala']); ?></span>
-															<div class="text"><span id="<?php echo($contprecio); ?>" class="letras" style="font-size:35px;line-height: 20px;"><?php echo(number_format($data['precio'], 2, ',', '.')); ?></span></div>
+															<div class="text"><span id="<?php echo($contprecio); ?>" class="letras" style="font-size:12px;line-height:14px;"><?php echo(number_format($data['precio'], 2, ',', '.')); ?></span></div>
 														</div>
 														<!-- <div class="sep"></div> -->
 													</div>

@@ -219,37 +219,37 @@ body{
 }
 /**************TEATRO****************/
 .teatro .nombre{
-    width: 63%;
-    max-width: 88%;
-    height: 18%;
-    float: left;
-    margin: 0;
-    color: #fff;
+	width: 45%;
+	max-width: 88%;
+	height: 18%;
+	float: left;
+	margin: 0px;
+	color: #FFF;
 }
 .teatro .nombre .principal{
-    display: inline-block;
-    width: 70%;
-    margin-top:26px;
-    margin-left:15px;
-    font-size: 10px;
-    line-height: 12px;
-    margin-right: 19px;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow:ellipsis;
-    letter-spacing: 3px;
+	display: inline-block;
+	width: 89%;
+	margin-top: 20px;
+	margin-left: 15px;
+	font-size: 12px;
+	line-height: 60px;
+	margin-right: 19px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	letter-spacing: 2px;
 }
 .teatro .nombre .sub {
-    width:70%;
-    margin-top:11px;
-    margin-left:15px;
-    margin-right: 14px;
-    font-size: 8px;
-    line-height:10px;
-    overflow: hidden;
-    white-space: nowrap;
-	text-overflow:ellipsis;
-	letter-spacing: 3px;
+	width:85%;
+	margin-top: 0px;
+	margin-left: 15px;
+	margin-right: 14px;
+	font-size:8px;
+	line-height: 20px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	letter-spacing: 2px;
 }
 .teatro .nombre .sub p{
     width:70%;
