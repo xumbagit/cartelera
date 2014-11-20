@@ -178,7 +178,7 @@ body{
     padding: 0;
 }
 .nombre {
-	width: 41%;
+	width: 45%;
 	max-width: 88%;
 	height: 18%;
 	float: left;
@@ -363,6 +363,7 @@ body{
 	color: #FFF;
 	font-style: normal;
 	font-weight: normal;
+	margin-left: 20px;
 }
 .sala {
     margin-top:20px;
