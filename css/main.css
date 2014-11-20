@@ -424,4 +424,5 @@ body{
 	height:100px;
 	display:inline-block;
 	float:left;
+	cursor: pointer;
 }
