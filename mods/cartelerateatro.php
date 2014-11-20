@@ -93,18 +93,9 @@
 							<div class="hora" id="HoraCine"><?php echo(date("h:i A")); ?></div>
 						</div>
 						<div class="header2">
-							<a href="#CarteleraDelCine">
-								<img src="img/btn_cine.png" />
-							</a><br />
-							<?php
-								if($numpeliculas_teatro>0){
-								?>
-									<a href="#CarteleraDelTeatro">
-										<img src="img/btn_teatro.png" />
-									</a>
-								<?php	
-								}
-							?>
+							<a href="#PrincipalWrapper">
+								<img src="http://xumbadevenezuela.com/entorno_cinetv_app/img/btn_regresar.png" />
+							</a>
 						</div>
 					</div>
 					<?php
