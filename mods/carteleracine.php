@@ -129,7 +129,7 @@
 															$(<?php echo($jqnomcontenedor); ?>).click(function() {
 																$('#wrapper3').load('<?php echo($linkDetails); ?>',function(){
 																	$('#wrapper3').trigger('create');
-																	$.mobile.changePage($("#DetallesDeLaPelicula"), "none");
+																	$.mobile.change("#DetallesDeLaPelicula");
 																});
 															});
 														});

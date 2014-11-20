@@ -127,7 +127,19 @@
 										$dbn2->QuerySQL($sql);
 										$filasu=$dbn2->getFilas();
 										if($filasu>0){
+											$jqnomcontenedor="#".$nomcontenedor;
+											$linkDetails="http://xumbadevenezuela.com/entorno_cinetv_app/mods/detalles_id.php?id=".$data['IDpeli'];
 											?>
+												<script tyle="text/javascript">
+													$(document).ready(function(){
+														$(<?php echo($jqnomcontenedor); ?>).click(function() {
+															$('#wrapper3').load('<?php echo($linkDetails); ?>',function(){
+																$('#wrapper3').trigger('create');
+																$.mobile.change("#DetallesDeLaPelicula");
+															});
+														});
+													});
+												</script>
 												<div name="<?php echo($nomcontenedor); ?>" id="<?php echo($nomcontenedor); ?>">
 													<div class="slideshow" id="<?php echo($nomcontpelicula); ?>">
 														<div class="nombre">
