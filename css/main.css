@@ -85,7 +85,7 @@ body{
 	position: relative;
 	float: left;
 	display: inline-block;
-	width: 60px;
+	width: 36px;
 	height: auto;
 	overflow: hidden;
 }
@@ -110,9 +110,9 @@ body{
 	display: inline-block;
 	float: left;
 	margin-top: 0px;
-	margin-left: 15px;
-	font-size: 10px;
-	line-height:12px;
+	margin-left: 8px;
+	font-size: 8px;
+	line-height:10px;
 	color: #FFF;
 	text-align: right;
 	font-weight: bolder;
