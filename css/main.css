@@ -387,3 +387,41 @@ body{
     font-size: 16px;
     line-height: 20px;
 }
+
+.menuppal{
+	position:relative;
+	width:300px;
+	height:auto;
+	margin:0 auto;
+}
+.logo_grande_ppal{
+	position:relative;
+	width:165px;
+	height:91px;
+	margin:0 auto;
+	margin-bottom:20px;
+}
+
+.opciones_grandes{
+	position:relative;
+	width:100%;
+	height:auto;
+	display:block;
+	float:none;
+}
+
+.opciones_grandes ul{
+	position:relative;
+	width:100%;
+	height:auto;
+	display:block;
+	float:none;
+}
+
+.opciones_grandes ul li{
+	position:relative;
+	width:100%;
+	height:100px;
+	display:inline-block;
+	float:left;
+}
