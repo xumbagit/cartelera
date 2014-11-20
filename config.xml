@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?> 
-<widget xmlns = "http://www.w3.org/ns/widgets" xmlns:gap = "http://phonegap.com/ns/1.0" id = "com.yourappname" versionCode="10" version = "0.0.1">
+<widget xmlns = "http://www.w3.org/ns/widgets" xmlns:gap = "http://phonegap.com/ns/1.0" id = "com.carteleravirtual" versionCode="10" version = "0.0.1">
 <!-- versionCode is optional and Android only -->
 <name>Cartelera Virtual</name>
 <description>Cartelera Virtual Cine Paseo - Teatro trasnocho Cultural</description>
 <author href="http://xumbadevenezuela.com" email="ventas@xumbadevenezuela.com">
 Xumba de venezuela 
 </author>
-<icon src="http://xumbadevenezuela.com/entorno_cinetv_app/icon.png" />
-<gap:splash src="http://xumbadevenezuela.com/entorno_cinetv_app/splash.png" gap:platform="ios" width="320" height="480" />
-<gap:splash src="http://xumbadevenezuela.com/entorno_cinetv_app/splash.png" gap:platform="android" width="320" height="480" />
+<icon gap:platform="ios" height="57" src="icon.png" width="57" />
+<icon gap:platform="android" height="57" src="icon.png" width="57" />
+<gap:splash src="splash.png" gap:platform="ios" width="320" height="480" />
+<gap:splash src="splash.png" gap:platform="android" width="320" height="480" />
 </widget>
