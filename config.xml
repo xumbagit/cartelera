@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<widget xmlns = "http://www.w3.org/ns/widgets" xmlns:gap = "http://phonegap.com/ns/1.0" id = "com.yourappname" versionCode="10" version = "1.0.1">
+<!-- versionCode is optional and Android only -->
+<name>Cartelera Virtual</name>
+<description>Cartelera Virtual Cine Paseo - Teatro trasnocho Cultural</description>
+<author href="http://yourwebsite.com" email="youremail@yourwebsite.com">
+Xumba de venezuela 
+</author>
+<gap:splash src="splash/ios/Default-568h@2x~iphone.png" gap:platform="ios" width="320" height="480" />
+<gap:splash src="splash/ios/Default-568h@2x~iphone.png" gap:platform="android" width="320" height="480" />
+</widget>
