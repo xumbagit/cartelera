@@ -129,13 +129,12 @@
 															$(<?php echo($jqnomcontenedor); ?>).click(function() {
 																$('#wrapper3').load('<?php echo($linkDetails); ?>',function(){
 																	$('#wrapper3').trigger('create');
-																	$.mobile.change("#DetallesDeLaPelicula");
 																});
 															});
 														});
 													</script>
 													<div name="<?php echo($nomcontenedor); ?>" id="<?php echo($nomcontenedor); ?>">
-														<div class="slideshow" id="<?php echo($nomcontpelicula); ?>">
+														<div class="slideshow" id="<?php echo($nomcontpelicula); ?>" onclick="location.href='#DetallesDeLaPelicula';">
 															<div class="nombre">
 																<div class="principal" id="<?php echo(contitulo); ?>"><?php echo(utf8_encode($data['titulo'])); ?></div>
 																<div class="sub" id="<?php echo(contsubt); ?>"><?php echo(strip_tags(utf8_encode($data['descrip']))); ?></div>
