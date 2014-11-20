@@ -402,6 +402,15 @@ body{
 	margin-bottom:20px;
 }
 
+#wrapper0{
+	position:relative;
+	width:100%;
+	height:auto;
+	display:block;
+	float:none;
+	margin-top:150px;
+}
+
 .opciones_grandes{
 	position:relative;
 	width:100%;
@@ -425,4 +434,5 @@ body{
 	display:inline-block;
 	float:left;
 	cursor: pointer;
+	margin-bottom:20px;
 }
