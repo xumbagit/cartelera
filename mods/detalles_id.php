@@ -60,9 +60,22 @@
 				<div class="hora" id="HoraCine" style="margin-left:5px;"><?php echo(date("h:i A")); ?></div>
 			</div>
 			<div class="header2">
-				<a href="#PrincipalWrapper">
-					<img src="http://xumbadevenezuela.com/entorno_cinetv_app/img/btn_regresar.png" />
-				</a>
+			<?php
+				if($catego=="CINE"){
+					?>
+						<a href="#CarteleraDelTeatro">
+							<img src="http://xumbadevenezuela.com/entorno_cinetv_app/img/btn_regresar.png" />
+						</a>
+					<?php
+				}
+				else{
+					?>
+						<a href="#CarteleraDelCine">
+							<img src="http://xumbadevenezuela.com/entorno_cinetv_app/img/btn_regresar.png" />
+						</a>
+					<?php
+				}
+			?>
 			</div>
 		</div>
 	<?php
@@ -700,7 +713,6 @@
 						<?php echo($sinopsis); ?>
 					</div>
 					<?php
-					
 						if($catego=="CINE"){
 							?>
 								<div class="btn_trailer" onclick="<?php echo($trailer); ?>">
@@ -708,7 +720,6 @@
 								</div>
 							<?php
 						}
-					
 					?>
 				</div>
 			<?php
