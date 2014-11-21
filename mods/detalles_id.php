@@ -412,10 +412,10 @@
 				////////////////////
 				
 				if($catego=="CINE"){
-					$claseDetalle="divdetalle divdetalleTeatro";
+					$claseDetalle="divdetalle divdetalleCine";
 				}
 				else{
-					$claseDetalle="divdetalle divdetalleCine";
+					$claseDetalle="divdetalle divdetalleTeatro";
 				}
 			?>
 				<div class="<?php echo($claseDetalle); ?>">
