@@ -63,14 +63,14 @@
 			<?php
 				if($catego=="CINE"){
 					?>
-						<a href="#CarteleraDelTeatro">
+						<a href="#CarteleraDelCine">
 							<img src="http://xumbadevenezuela.com/entorno_cinetv_app/img/btn_regresar.png" />
 						</a>
 					<?php
 				}
 				else{
 					?>
-						<a href="#CarteleraDelCine">
+						<a href="#CarteleraDelTeatro">
 							<img src="http://xumbadevenezuela.com/entorno_cinetv_app/img/btn_regresar.png" />
 						</a>
 					<?php
