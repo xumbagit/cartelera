@@ -249,15 +249,17 @@ body{
 }
 
 .dia_horario{
-	position:relative;
-	width:60px;
-	height:auto;
-	font-size:12px;
+	position: relative;
+	width: auto;
+	height: auto;
+	font-size: 12px;
 	line-height: 14px;
-	float:left;
-	text-align:center;
-	display:inline-block;
-	color:#FFF;	
+	float: left;
+	text-align: center;
+	display: inline-block;
+	color: #FFF;
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
 .sep_horario2{
@@ -360,7 +362,7 @@ body{
     padding: 0;
 }
 .nombre {
-	width: 45%;
+	width: 66%;
 	max-width: 88%;
 	height: 18%;
 	float: left;
@@ -401,7 +403,7 @@ body{
 }
 /**************TEATRO****************/
 .teatro .nombre{
-	width: 45%;
+	width: 66%;
 	max-width: 88%;
 	height: 18%;
 	float: left;
@@ -442,7 +444,7 @@ body{
 /**********************************/
 .sep {
     background-color: #fff;
-    width: 6px;
+    width:2px;
     height: 135px;
     margin-top: 12px;
 }
