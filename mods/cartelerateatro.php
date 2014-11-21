@@ -114,7 +114,7 @@
 								if($dbn->getFilas()>0){
 									$i=0;
 									while($data=$dbn->getData()){
-										$nomcontenedor="Slidepel".$i;
+										$nomcontenedor="SlidepelT".$i;
 										$nomcontpelicula="Slide_ID".$data['IDpeli'];
 										$contcensura="Censura_ID".$data['IDpeli'];
 										$contsala="Sala_ID".$data['IDpeli'];
@@ -132,10 +132,9 @@
 											?>
 												<script tyle="text/javascript">
 													$(document).ready(function(){
-														$(<?php echo($jqnomcontenedor); ?>).click(function() {
+														$('<?php echo($jqnomcontenedor); ?>').click(function() {
 															$('#wrapper3').load('<?php echo($linkDetails); ?>',function(){
 																$('#wrapper3').trigger('create');
-																$.mobile.change("#DetallesDeLaPelicula");
 															});
 														});
 													});

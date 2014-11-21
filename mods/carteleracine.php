@@ -126,7 +126,7 @@
 												?>
 													<script tyle="text/javascript">
 														$(document).ready(function(){
-															$(<?php echo($jqnomcontenedor); ?>).click(function() {
+															$('<?php echo($jqnomcontenedor); ?>').click(function() {
 																$('#wrapper3').load('<?php echo($linkDetails); ?>',function(){
 																	$('#wrapper3').trigger('create');
 																});
