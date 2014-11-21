@@ -362,7 +362,7 @@ body{
     padding: 0;
 }
 .nombre {
-	width: 66%;
+	width: 60%;
 	max-width: 88%;
 	height: 18%;
 	float: left;
@@ -403,7 +403,7 @@ body{
 }
 /**************TEATRO****************/
 .teatro .nombre{
-	width: 66%;
+	width: 60%;
 	max-width: 88%;
 	height: 18%;
 	float: left;
