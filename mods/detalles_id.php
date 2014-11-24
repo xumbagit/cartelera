@@ -434,11 +434,11 @@
 				<div class="<?php echo($claseDetalle); ?>">
 					<div class="head_talle">
 						<div class="nombres">
-							<span class="titulobra"><?php echo($nombre); ?></span><br>
+							<span class="titulobra"><?php echo($nombre); ?></span>
 							<span class="subtitulobra"><?php echo($descripcion); ?></span>
 						</div>
 						<div class="censura_sala">
-							<?php echo("censura ".$censura); ?><br>
+							<?php echo("censura ".$censura); ?>
 							<?php echo("SALA<br>".$sala); ?>
 						</div>
 					</div>
